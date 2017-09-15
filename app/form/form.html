@@ -1,0 +1,55 @@
+<div class="row">
+    <div>
+        <div id="status-buttons" class="text-center">
+            <ul class="nav nav-tabs" id="myTab">
+                <div></div>
+
+                <li>
+                    <a ui-sref-active="active" ui-sref=".basicInfo" data-toggle="tab" title="basic Info">
+                        <span >
+                            Basic Info
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a ui-sref-active="active" ui-sref=".about" data-toggle="tab" title="About Me">
+                        <span>
+                            About Me
+                        </span> 
+                    </a>
+                </li>
+
+                <li>
+                    <a ui-sref-active="active" ui-sref=".socialMedia" data-toggle="tab" title="Social Media">
+                        <span>
+                            Social Media
+                        </span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a ui-sref-active="active" ui-sref=".summary" data-toggle="tab" title="summary">
+                        <span>
+                            Summary
+                        </span>
+                    </a>
+                </li>
+                <li style="float:right;">
+                    <a href="/#/showAll" data-toggle="tab" title="Show All Users">
+                        <span>
+                            Show All Users
+                        </span>
+                    </a>
+                </li>
+                
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="tab-content">
+            <div ui-view></div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,212 @@
+<div class="">
+    <h3 class="text-center">{{vm.title}}</h3>
+    <p class="text-center" id="result">
+       Please review the information:
+    </p>
+    <br/>
+    <div class="summaryDL">
+    <div class="dl-horizontal">
+        
+        <h4 class="text-center">Basic Info</h4>
+        <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="name">Name: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{formData.name}}</label>
+            </div>
+        </div>
+                <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="dob">Date of birth: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{formData.name}}</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="name">Name: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{ formData.dob  | date:'yyyy-MM-dd'}}</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="nationality">Nationality: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{ formData.nationality }}</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="gender">Gender: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{ formData.gender }}</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="gender">Sport: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{ formData.sport }}</label>
+            </div>
+        </div>
+        
+        <h4 class="text-center">About You</h4>
+        <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="gender">About you: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{ formData.about }}</label>
+            </div>
+        </div>
+          <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="gender">Team: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{ formData.team }}</label>
+            </div>
+        </div>
+                <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="gender">Interests: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{ formData.interests }}</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="gender">Charities: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{ formData.charities }}</label>
+            </div>
+        </div>
+                <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="gender">Pets: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{ formData.pets }}</label>
+            </div>
+        </div>
+                <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="gender">Drink Alcohol: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{ formData.drinkAlcohol }}</label>
+            </div>
+        </div>
+                <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="gender">Married: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{ formData.married }}</label>
+            </div>
+        </div>
+        
+        <h4 class="text-center">Social Media handles</h4>
+                <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="gender">Facebook: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{ formData.socialMedia.facebook }}</label>
+            </div>
+        </div>
+                <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="gender">Twitter: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{ formData.socialMedia.Twitter }}</label>
+            </div>
+        </div>
+                <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="gender">Instagram: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{ formData.socialMedia.Instagram }}</label>
+            </div>
+        </div>
+                        <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="gender">Youtube: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{ formData.socialMedia.Youtube }}</label>
+            </div>
+        </div>
+                        <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="gender">Twitch: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{ formData.socialMedia.Twitch }}</label>
+            </div>
+        </div>
+                        <div class="row">
+            <div class='col-xs-6'>
+                <div class="form-group">
+                    <label class="control-label float-right" for="gender">Snapchat: </label> 
+                </div>
+            </div>
+            <div class='col-xs-6'>
+                <label class="float-left font-normal">{{ formData.socialMedia.Snapchat }}</label>
+            </div>
+        </div>              
+    </div>
+    <div class="form-group text-center">
+        <a ui-sref="form.socialMedia" class="btn btn-default"> <span class="glyphicon glyphicon-arrow-left"></span> Edit</a>
+        <button class="btn btn-info" ng-click="vm.submitData(formData)"> Save <span  class="glyphicon glyphicon-arrow-right"></span></button>
+    </div>
+</div>
+
+    
